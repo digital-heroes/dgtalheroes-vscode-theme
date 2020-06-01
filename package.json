@@ -1,0 +1,22 @@
+{
+    "name": "dgtalheroes-vscode-theme",
+    "displayName": "DgtalHeroes Theme",
+    "description": "Nice blue theme for Visual Studio Code from DgtalHeroes",
+    "version": "0.0.1",
+    "publisher": "dgtalheroes",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "DgtalHeroes Color Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DgtalHeroes Color Theme-color-theme.json"
+            }
+        ]
+    }
+}
